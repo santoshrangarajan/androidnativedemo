@@ -30,8 +30,6 @@ public class NativeDemo extends Activity {
         			                  String message,
         			                  String defaultValue,
         			                  JsPromptResult result){
-        	  
-
 	           if(message.trim().equals("get_port")){   
 	        	    result.confirm(generateResponseForPort());
 	           } else { 
