@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Native call demo </title>
+
+<script type="text/javascript" charset="utf-8" src="demo.js"></script> 
+
+<script type="text/javascript">
+
+function callnative( params ) {
+	document.getElementById("response").innerHTML="";
+    demo.callnative(onSuccess,onFailure,params);
+}
+
+
+function onSuccess(result){
+	 //alert(result );
+	 document.getElementById("response").innerHTML=result;
+}
+
+function onFailure(error){
+	alert("Failure callback");
+}
+
+
+</script>
+
+   
+   <body>
+        <center>
+			<b>Native call demo</b> <br><br>
+			<button onclick="callnative('Callbackserver:test');">CallBackServer</button>
+			<button onclick="callnative('Confirm:test');">Confirm</button>
+			<div id="response"></div>
+		</center>
+	</body>
+	
+
+</html>
