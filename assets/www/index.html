@@ -14,15 +14,12 @@ function callnative( params ) {
 
 
 function onSuccess(result){
-	 //alert(result );
 	 document.getElementById("response").innerHTML=result;
 }
 
 function onFailure(error){
 	alert("Failure callback");
 }
-
-
 </script>
 
    
@@ -34,6 +31,4 @@ function onFailure(error){
 			<div id="response"></div>
 		</center>
 	</body>
-	
-
 </html>
