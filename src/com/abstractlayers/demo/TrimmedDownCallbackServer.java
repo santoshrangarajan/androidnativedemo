@@ -27,7 +27,6 @@ public class TrimmedDownCallbackServer implements Runnable {
 	public int getPort() {
 		return port;
 	}
-
 	boolean keepRunning;
 	static final String digits = "0123456789ABCDEF";
 
