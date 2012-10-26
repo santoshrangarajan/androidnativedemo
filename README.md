@@ -11,7 +11,7 @@ Installation
 
 Usage
 ========
-1. Please refer <a href="http://abstractlayers.com/2012/10/19/apache-cordova-overview-part-1/">here on instructions and overview about application
+1. Please refer <a href="http://abstractlayers.com/2012/10/19/apache-cordova-overview-part-1/">here</a> on instructions and overview about application
 
 License
 ========
