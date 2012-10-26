@@ -1,7 +1,7 @@
 AndroidNativeDemo
 ================
 
-Android application to demonstrate communication between JS and Android Native platform. 
+Android application to demonstrate communication between JS and Android Native platform (Principle on how Cordova works). 
 
 Installation
 ================
